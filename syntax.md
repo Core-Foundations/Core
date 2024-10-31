@@ -1,3 +1,17 @@
+```
+/*
+ *  ______   __   __   ______   ______    ______     ________  ______   ______      
+ * /_____/\ /_/\ /_/\ /_____/\ /_____/\  /_____/\   /_______/\/_____/\ /_____/\     
+ * \:::_ \ \\:\ \\ \ \\::::_\/_\:::_ \ \ \:::_ \ \  \__.::._\/\:::_ \ \\::::_\/_    
+ *  \:\ \ \ \\:\ \\ \ \\:\/___/\\:(_) ) )_\:(_) ) )_   \::\ \  \:\ \ \ \\:\/___/\   
+ *   \:\ \ \ \\:\_/.:\ \\::___\/_\: __ `\ \\: __ `\ \  _\::\ \__\:\ \ \ \\::___\/_  
+ *    \:\_\ \ \\ ..::/ / \:\____/\\ \ `\ \ \\ \ `\ \ \/__\::\__/\\:\/.:| |\:\____/\ 
+ *     \_____\/ \___/_(   \_____\/ \_\/ \_\/ \_\/ \_\/\________\/ \____/_/ \_____\/ 
+ *                          From: 20241031 @00:06
+ *                         ------------------------
+ *
+ */
+```
 # **Introduction**:
 --------------------------
 ***Core***: is a Statictly-Typed interpreted Language, it is the preamble to what is to come for the future
@@ -29,7 +43,7 @@ value := 5;
 ** //power (x) -> (x * x)
 += // plus 1 (value = value + n)
 -= // minus 1 (value = value - n)
-
+:= // Assignment operator (unknown type)
 ```
 ------------------------------
 # ***Conditionals***
@@ -70,7 +84,7 @@ func addFunction(int x, int y) -> int {
 ```
 
 ---------------------------
-# Definine a Class
+# Definine a Class (yes their will be some OOP)
 
 ```
 class Human {
@@ -107,10 +121,27 @@ class Human {
     _Human(String name, int age) {
         //...
     }
-    
-    
-    
+    meth addVariable(int x, int y) { return x + y; }
 }
+Human myHuman = new Human("Andrew", 25);
+                         //{[0]    [1]}
+printf("My mame is {myHuman.name}") //output "5"
+
 ```
+
+### Here is an important list of features:
+------------------------------------------
+_oneUnderscore  | private variable/func/method/class   |
+__twoUnderScore | protected variable/func/method/class | 
+-----------------------------------------------------
+
+
+
+
+
+
+
+
+
 
 
